@@ -21,7 +21,7 @@ add_action('index-pretemplate','ipblockFrontend' );
 
 function ipblockFrontend(){
 
-	$api_key = ''; // Zamień na swój klucz API
+	$api_key = @file_get_contents(GSDATAOTHERPATH.'ipblocker.txt');
 
  $user_ip = $_SERVER['REMOTE_ADDR'];
 
