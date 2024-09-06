@@ -76,7 +76,7 @@ function IPblockerSettings() {
 <h3>IPblocker</h3>
 <p>Get API from <a href='https://www.abuseipdb.com' target='_blank'>abuseipdb.com</a></p>
 <form method='POST'>
-<input type='text' value='".$fileapi."' name='api' style='width:100%;padding:10px;'>
+<input type='text' value='".$fileapi."' name='api' style='width:98%;padding:10px;'>
 <input type='submit' name='submit' value='save API' style='padding:10px 15px;margin-top:10px;background:#000;color:#fff;margin-bottom:10px;border:none;'>	
 </form>
 	<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'I3I2RHQZS');kofiwidget2.draw();</script>
